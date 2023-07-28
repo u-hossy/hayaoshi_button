@@ -11,7 +11,7 @@ function planer2() {
     msg.innerText = 'プレイヤー2（j）さん、解答をどうぞ！';
 };
 function reset() {
-    if(window.confirm('リセットしますか？')){
+    if(window.confirm('初期状態に戻しますか？')){
         msg.innerText = ready;
     }
 }

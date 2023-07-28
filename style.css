@@ -1,5 +1,6 @@
 * {
     background-color: #ccffe6;
+    font-family: "Noto sans JP";
 }
 
 header * {
@@ -7,9 +8,14 @@ header * {
     padding: auto 5%;
     text-align: center;
 }
+header h1 {
+    font-size: 40px;
+}
 
 #msg_box {
-    background-color: red;
+    margin: 10% 10%;
+    border: solid;
+    border-color: black;
 }
 
 #msg_box > h1 {
