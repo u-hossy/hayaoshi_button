@@ -1,0 +1,17 @@
+* {
+    background-color: #ccffe6;
+}
+
+header * {
+    /* background-color: #cce5ff; */
+    padding: auto 5%;
+    text-align: center;
+}
+
+#msg_box {
+    background-color: red;
+}
+
+#msg_box > h1 {
+    text-align: center;    
+}

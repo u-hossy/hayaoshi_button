@@ -3,17 +3,32 @@
 <meta charset="utf-8">
 <title>早押しボタン</title>
 <link rel="stylesheet" href="style.css">
-<script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
+<!--
+開発の道しるべ
+まずはシステムから作成する
+（
+ボタンを押したら反応するように（はじめはFとJキーで行く）
+それができたら任意のボタンで押すボタンを任意にできるようにする
+次は3人以上でもできるようにする
+）
 
-<header class="header">
-
-</header>
+ここまでできたらデザインを作る
+フレームワークとかを使ってボタンを装飾する
+-->
+<header>
+    <div>
+        <h1>早押しボタン for クイズプレイヤー</h1>
+        <h5>クイズプレイヤーに選ばれるような即席早押しボタンを作ります</h5>    
+    </div>
+    </header>
 
 <main>
-
+    <div id="msg_box">
+        <h1 id="status_msg">解答がわかったらボタンを押そう！！</h1>
+    </div>
 </main>
 
 <footer class="footer">
@@ -21,4 +36,5 @@
 </footer>
 
 </body>
+<script type="text/javascript" src="script.js"></script>
 </html>
